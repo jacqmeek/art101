@@ -2,5 +2,13 @@
 
 p{
   color: purple;
-  font weight: bold;
+  font-weight: bold;
+}
+
+#callout {
+  background-color: tan;
+  padding: 20px;
+  margin: 10px;
+  border: solid 1px black;
+  border-radius: 20px;
 }
