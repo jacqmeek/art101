@@ -20,3 +20,34 @@
   border: solid 1px #444444;
   font-size: 25px;
 }
+
+img#pair-programming{
+  max-width: 50%;
+  height: auto;
+}
+
+#our-list{
+  text-align: left;
+  font-family: cursive;
+  background-color: Red;
+  text-indent: 20px;
+  padding: 10px;
+  margin: 30px;
+  border: solid 1px #444444;
+  border-radius: 20px;
+}
+
+p#quote{
+  text-indent: 105px;
+  font-family: fantasy;
+  font-size: 30px;
+  background-color: #3d6eff;
+  margin-right: 800px;
+  paddiing: 10px;
+  border-radius: 20px;
+}
+
+img#snoop-dawg{
+  max-width: 10px;
+  height: auto;
+}
