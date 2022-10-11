@@ -1,0 +1,61 @@
+
+body{
+  margin: auto;
+  font-family: "lucida sans";
+  text-align: center;
+  max-width: 1025px;
+  background-image: url(https://img.freepik.com/premium-photo/abstract-white-wave-background-minimal-white-graphic-wallpaper-2d-illustration_67092-1281.jpg?w=2000);
+}
+
+p{
+  display: inline-block;
+  text-align: center;
+}
+
+.results h1{
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  margin-top: 50px;
+}
+.results h2{
+  background-color: #4cadcc;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.results h3{
+  font-family: "lucida sans";
+  color: #000000;
+  font-size: 15px;
+}
+
+.results h4{
+  font-family: "lucida sans";
+  color: #000000;
+  font-size: 15px;
+}
+
+.results h5{
+  font-style: italic;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.results h6{
+  font-style: italic;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.results img{
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
