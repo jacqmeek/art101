@@ -1,0 +1,123 @@
+body{
+  margin: auto;
+  background-image: linear-gradient(#a16662, black);
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.title{
+  font-size: 12px;
+  color: white;
+  background-color:#331d1c;
+  padding: 10px;
+}
+
+.output{
+  font-size: 14x;
+  width: 500px;
+  float: right;
+  background-color: #b0a6a5;
+  padding: 15px;
+}
+
+#outcomes-heading1{
+  color: white;
+  font-size: 8px;
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #331d1c;
+  border-radius: 20px;
+}
+
+#outcomes-info1{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  display: inline-flex;
+  max-width: 350px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+
+#outcomes-heading2{
+  font-size: 8px;
+  color:white;
+  display: inline-flex;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #331d1c;
+  border-radius: 20px;
+}
+
+#outcomes-info2{
+  text-align: center;
+  font-size: 12px;
+  color:white;
+  display: inline-flex;
+  max-width: 350px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#outcomes-results{
+  text-align: center;
+  margin-top: 110px;
+  background-color: #331d1c;
+  color: white;
+  padding: 10px;
+}
+
+#outcomes-results p{
+  font-size: 11px;
+}
+
+#screenshots-headings{
+  font-size: 11px;
+}
+
+#screenshots-headings .head-one{
+  display: inline-flex;
+  color: white;
+  margin-left: 250px;
+}
+
+#screenshots-headings .head-two{
+  display: inline-flex;
+  color: white;
+  margin-left: 275px;
+}
+
+#screenshots-headings .head-three{
+  display: inline-flex;
+  color: white;
+  margin-left: 500px;
+}
+
+.screenshots-images{
+  margin-left: 150px;
+}
+
+.screenshots-captions{
+  color: white;
+  font-style:italic;
+  font-size: 8px;
+  margin-left: 165px
+}
+
+.screenshots-captions .caption-one{
+  display: inline-flex;
+}
+
+.screenshots-captions .caption-two{
+  display: inline-flex;
+  margin-left: 160px;
+}
+
+.screenshots-captions .caption-three{
+  display: inline-flex;
+  margin-left: 415px;
+}
