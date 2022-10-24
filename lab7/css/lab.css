@@ -1,0 +1,162 @@
+
+
+#boom-frog{
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+body{
+  margin: auto;
+  background-image: url(https://images3.alphacoders.com/115/1155240.png);
+  background-size: cover;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.title{
+  font-size: 12px;
+  color: white;
+  background-color:#63b995;
+  padding: 10px;
+}
+
+.output{
+  text-align: center;
+  font-size: 14px;
+  width: 300px;
+  height: 300px;
+  float: right;
+  background-image: url(https://c.tenor.com/4QKlPv_xWIMAAAAC/little-frog.gif);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+}
+
+#outcomes-heading1{
+  color: black;
+  font-size: 8px;
+  display: inline-flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #adeee3;
+  border-radius: 20px;
+}
+
+#outcomes-info1{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  display: inline-flex;
+  max-width: 350px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+
+#outcomes-heading2{
+  font-size: 8px;
+  color: black;
+  display: inline-flex;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #adeee3;
+  border-radius: 20px;
+}
+
+#outcomes-info2{
+  text-align: center;
+  font-size: 12px;
+  color:white;
+  display: inline-flex;
+  max-width: 350px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#outcomes-results{
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+  padding: 10px;
+  opacity: 80%;
+}
+
+#outcomes-results p{
+  font-size: 11px;
+}
+
+#screenshots-headings{
+  font-size: 11px;
+}
+
+#screenshots-headings .head-one{
+  display: inline-flex;
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 15px;
+  color: white;
+  margin-left: 280px;
+}
+
+#screenshots-headings .head-two{
+  display: inline-flex;
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 15px;
+  color: white;
+  margin-left: 460px;
+}
+
+#screenshots-headings .head-three{
+  display: inline-flex;
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 15px;
+  color: white;
+  margin-left: 460px;
+}
+
+.screenshots-images{
+  margin-left: 50px;
+}
+
+.screenshots-captions{
+  color: white;
+  font-style:italic;
+  font-size: 10px;
+  margin-left: 175px
+}
+
+.screenshots-captions .caption-one{
+  display: inline-flex;
+}
+
+.screenshots-captions .caption-two{
+  display: inline-flex;
+  margin-left: 275px;
+}
+
+.screenshots-captions .caption-three{
+  display: inline-flex;
+  margin-left: 300px;
+}
+
+#punkfrog{
+  float: right;
+  margin-left: 20px;
+}
+
+#punkfrogmusic{
+  float: right;
+  margin-left: 100px;
+}
