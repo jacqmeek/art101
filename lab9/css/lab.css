@@ -1,0 +1,104 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/4e/5a/ef/4e5aef1387d7a91ce0130bc20bcfe211.gif);
+  background-size: cover;
+background-position: center;
+font-family: 'Anonymous Pro';
+font-size: 22px;
+}
+
+#foreground {
+position: absolute;
+margin-top: -10px;
+margin-left: -10px;
+width: 1700px;
+height: 1100px;
+opacity: 0.8;
+mix-blend-mode: difference;
+}
+
+.title {
+text-align: center;
+font-style: oblique;
+font-size: 14px;
+color: white;
+padding: 10px;
+}
+
+#output {
+color: white;
+font-size: 20px;
+text-align: center;
+border-radius: 10px;
+}
+
+#output h4 {
+color: pink;
+}
+
+#outcomes-heading1 {
+font-style: oblique;
+color: pink;
+font-size: 14px;
+display: inline-flex;
+margin-left: 200px;
+margin-top: 30px;
+}
+
+#outcomes-info1 {
+text-align: center;
+font-size: 14px;
+color: white;
+display: inline-flex;
+max-width: 400px;
+padding: 10px;
+background-color: black;
+border-radius: 20px;
+margin-right: 50px;
+}
+
+#outcomes-heading2 {
+font-size: 14px;
+font-style: oblique;
+color: pink;
+display: inline-flex;
+margin-top: 30px;
+}
+
+#outcomes-info2 {
+text-align: center;
+font-size: 14px;
+color: white;
+display: inline-flex;
+max-width: 400px;
+padding: 10px;
+background-color: black;
+border-radius: 20px;
+}
+
+.screenshots-images {
+margin-top: 5px;
+margin-left: 100px;
+display: inline-flex;
+text-align: center;
+color: white;
+}
+
+.screenshots-images img {
+padding: 10px;
+}
+
+.screenshots-images p {
+font-style: italic;
+font-size: 10px;
+background-color: black;
+padding: 5px;
+border-radius: 5px;
+color: white;
+margin: 10px;
+margin-top: -10px;
+}
+
+.screenshots-images h3 {
+font-size: 15px;
+}
+Image
