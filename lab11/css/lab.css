@@ -1,0 +1,68 @@
+body {
+  background-color: #F2EFE9;
+  margin: auto;
+}
+
+#title {
+  text-align: center;
+  color: #F2EFE9;
+  font-family: 'Kumbh Sans';
+  background-color: #904E55;
+  padding: 20px;
+}
+
+#challenges, #problems {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  width: 900px;
+  margin: auto;
+}
+
+#results{
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.special{
+  background-color: #564E58;
+  font-family: 'Kumbh Sans';
+  color: #BFB48F;
+}
+.special p{
+  color: #F2EFE9;
+  font-style: italic;
+}
+
+.special2{
+  background-image: url(https://media1.giphy.com/media/eDUHhtooZxyhi/giphy.gif);
+  height: 300px;
+  width: 400px;
+}
+
+.special2 h2{
+  background-color:#904E55 ;
+  font-family: 'Kumbh Sans';
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  opacity: 50%;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 260px;
+}
+
+.links{
+  color: #896978;
+  background-color: #FFD4CA;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 10px;
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+}
