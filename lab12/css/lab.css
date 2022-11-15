@@ -1,25 +1,28 @@
 body {
-   background-image: url(https://seeklogo.com/images/H/hogwarts-school-of-witchcraft-and-wizardry-logo-0A580FD290-seeklogo.com.png);
-   background-image: 1000px;
+  background-image: url(https://wallpaperaccess.com/full/871025.png);
+  background-size: cover;
+  text-align: center;
+  font-family: 'Josefin Sans';
   margin: auto;
 }
 
 #title {
   text-align: center;
-  color: #000000;
-  font-family: "Kumbh Sans";
-  background-color: #C0C0C0;
   padding: 20px;
+  margin-bottom: 100px;
 }
 
 .input-output, .output {
+  margin-top: 20px;
   text-align: center;
-  margin: auto;
+  font-size: 30px;
+  padding: 50px;
   color: #FCC500;
-  background-color: #7F0909;
+  width: 900px;
+  margin: auto;
 }
 
-.input-output p{
+.input-output p {
   text-align: center;
   color: white;
 }
@@ -44,22 +47,25 @@ body {
   margin: auto;
 }
 
-.task p{
+.task p {
   font-size: 10pt;
 }
 
-#challenges p, #problems p{
+#challenges p, #problems p {
   color: white;
 }
 
-#results{
+#results img {
+  margin-top: 150px;
+}
+
+#results .input-output, .output {
   text-align: center;
+  position: absolute;
   padding: 20px;
-  color: #FFED86;
-  background-color: #60605C;
-  border-radius: 20px;
-  margin: auto;
-  margin-bottom: 100px;
+  background-color: #7F0909;
+  width: 100%;
+  height: 35%;
 }
 
 .task {
@@ -72,10 +78,8 @@ body {
   bottom: 40px;
 }
 
-
-.links{
-  color: #896978;
-  background-color: #FFD4CA;
+.links {
+  background-color: black;
   position: fixed;
   width: 100%;
   bottom: 0;
