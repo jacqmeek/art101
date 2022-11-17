@@ -1,3 +1,11 @@
+#home-icon{
+  width: 60px;
+  height: auto;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 body{
   margin: auto;
   background-image: linear-gradient(#a16662, black);
@@ -70,46 +78,49 @@ body{
   color: white;
   padding: 10px;
 }
-
 #outcomes-results p{
   font-size: 11px;
 }
 
 #screenshots-headings{
+  color: white;
   font-size: 11px;
+  text-align: center;
+  display: inline-flex;
 }
 
-#screenshots-headings .head-one{
+#screenshots-headings .task1{
   display: inline-flex;
-  color: white;
   margin-left: 250px;
 }
 
-#screenshots-headings .head-two{
+#screenshots-headings .task2{
   display: inline-flex;
-  color: white;
-  margin-left: 275px;
+  margin-left: 375px;
 }
 
-#screenshots-headings .head-three{
+#screenshots-headings .task3{
   display: inline-flex;
-  color: white;
-  margin-left: 500px;
+  margin-left: 505px;
 }
 
 .screenshots-images{
   margin-left: 150px;
+  left: auto;
 }
 
 .screenshots-captions{
   color: white;
-  font-style:italic;
+  text-align: center;
+  display: inline-flex;
+  font-style: italic;
+  margin-right: inherit;
   font-size: 8px;
-  margin-left: 165px
 }
 
 .screenshots-captions .caption-one{
   display: inline-flex;
+  margin-left: 160px;
 }
 
 .screenshots-captions .caption-two{
@@ -119,5 +130,5 @@ body{
 
 .screenshots-captions .caption-three{
   display: inline-flex;
-  margin-left: 415px;
+  margin-left: 360px;
 }
