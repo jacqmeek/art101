@@ -1,0 +1,67 @@
+body {
+  background-color: #3C3744;
+  font-family: 'Alata';
+  margin: auto;
+}
+
+#title {
+  text-align: center;
+  color: white;
+  background-color: #B4C5E4;
+  margin-bottom: 25px;
+  padding: 20px;
+}
+
+.content{
+  color: #FBFBFB;
+  background: #3D52D5;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  width: 1200px;
+  height: 1000px;
+  margin: auto;
+}
+
+#challenges, #problems {
+  background: #B4C5E4;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#challenges p, #problems p{
+color:#3C3744;
+}
+
+#results{
+  color: #FBFBFB;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.screenshots h5, .screenshots img{
+  margin: auto;
+}
+
+.screenshots{
+  display: inline-flex;
+  margin: auto;
+  text-align: center;
+}
+
+.screenshots img{
+  margin: 25px;
+}
+
+.links {
+  background-color: #090C9B;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 5px;
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+}
