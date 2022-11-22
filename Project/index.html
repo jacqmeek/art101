@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Better UCSC Campus Map</title>
+    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>    <script src="js/project.js" defer></script>
+</head>
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>A Disclaimer:</h2>
+        <p>
+            This site has been created for educational purposes by students in Art 101 at UC Santa Cruz. The information found on this page is unofficial, and to be used for unofficial purposes only. This page's creators claim no rights or responsibility to the information found! Kapeesh?
+        </p>
+        <a href="#">Kaposh.</a>
+    </div>
+
+<div id=Info>
+  <!-- First Button -->
+    <button id="Thing1"> Dots </button><br>
+  <!-- First overlay -->
+    <div id="Overlay1">
+  <!-- Swapping with image of our overlay -->
+                <div id="Position1">
+                    <img src="https://www.lunapic.com/editor/premade/transparent.gif">
+                </div>
+            </div>
+
+            <!--  Second Button -->
+            <br><button id="Thing2"> Spots </button><br>
+            <!-- Second overlay -->
+            <div id="Overlay2">
+                <!-- Swapping with image of our overlay -->
+                <p>Place holder text</p>
+            </div>
+        </div>
+
+        <!-- Third Button -->
+        <br><button id="Thing3"> Period </button><br>
+        <!-- Third overlay -->
+        <div id="Overlay3">
+            <!-- Swapping with image of our overlay -->
+            <p>Place holder text</p>
+        </div>
+        </div>
+
+        <!-- Fourth Button -->
+        <br><button id="Thing4"> Zen Zone </button><br>
+        <!--Fourth overlay -->
+        <div id="Overlay4">
+            <!-- Swapping with image of our overlay -->
+            <p>Place holder text</p>
+        </div>
+        </div>
+        <div id="map"></div>
+    </body>
+    <!--insert this in <head> section -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--body-->
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fa fa-bars" id="btn"></i>
+      <i class="fa fa-close" id="cancel"></i>
+    </label>
+
+    <div class="sidebar">
+      <h1>
+        My Site
+      </h1>
+      <ul>
+        <li><a href="#"><i class="fa fa-automobile"></i>Uber Info</a></li>
+        <li><a href="#"><i class="    fa fa-book"></i>Student Resources</a></li>
+      </ul>
+    </div>
+
+    <section></section>
+
+    </html>
